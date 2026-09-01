@@ -1,113 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <!-- =========================================================
-         CONFIGURAÇÕES PRINCIPAIS
-    ========================================================== -->
-
+    <!-- ==========================================================================
+         [01] CONFIGURAÇÕES BÁSICAS DO DOCUMENTO & NAVEGADOR
+    ========================================================================== -->
     <meta charset="UTF-8">
-
-    <!-- Viewport / Responsividade -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO -->
-    <title>Deschamps Refrigeração | Limpeza de Ar-Condicionado em Guarapari</title>
-
-    <meta
-        name="description"
-        content="Limpeza e higienização de ar-condicionado residencial em Guarapari – ES. Conheça a Deschamps Refrigeração e solicite um orçamento pelo WhatsApp."
-    >
-
-    <meta
-        name="keywords"
-        content="limpeza de ar-condicionado em Guarapari, higienização de ar-condicionado em Guarapari, limpeza de ar condicionado Guarapari ES, limpeza de split Guarapari, higienização de ar condicionado residencial, refrigeração residencial Guarapari"
-    >
-
     <meta name="robots" content="index, follow">
     <meta name="author" content="Deschamps Refrigeração">
+    <!-- Cor da barra do navegador mobile (Chrome/Android) -->
     <meta name="theme-color" content="#0b1f3a">
 
-    <!-- Canonical -->
-    <link rel="canonical" href="URL_DO_SITE_AQUI">
-
-    <!-- =========================================================
-         FAVICON
-    ========================================================== -->
-    <link
-        rel="icon"
-        type="image/jpeg"
-        href="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/00-DR-ICONE.jpeg"
+    <!-- ==========================================================================
+         [02] SEO — MECANISMOS DE BUSCA (GOOGLE, BING)
+    ========================================================================== -->
+    <title>Deschamps Refrigeração | Limpeza de Ar-Condicionado em Guarapari</title>
+    
+    <meta 
+        name="description" 
+        content="Limpeza e higienização de ar-condicionado residencial em Guarapari – ES. Conheça a Deschamps Refrigeração e solicite um orçamento pelo WhatsApp."
     >
-
-    <!-- Apple Touch Icon -->
-    <link
-        rel="apple-touch-icon"
-        href="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/00-DR-ICONE.jpeg"
+    
+    <meta 
+        name="keywords" 
+        content="limpeza de ar-condicionado em Guarapari, higienização de ar-condicionado em Guarapari, limpeza de ar condicionado Guarapari ES, limpeza de split Guarapari, higienização de ar condicionado residencial, refrigeração residencial Guarapari"
     >
+    
+    <!-- URL Oficial do seu site (evita conteúdo duplicado no Google) -->
+    <link rel="canonical" href="https://deschampsrefrigeracao.pages.dev/">
 
-    <!-- =========================================================
-         OPEN GRAPH
-    ========================================================== -->
-    <meta
-        property="og:title"
-        content="Deschamps Refrigeração | Limpeza de Ar-Condicionado em Guarapari"
-    >
+    <!-- ==========================================================================
+         [03] FAVICONS — ÍCONES NA ABA DO NAVEGADOR E DISPOSITIVOS APPLE
+    ========================================================================== -->
+    <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/00-DR-ICONE.jpeg">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/00-DR-ICONE.jpeg">
 
-    <meta
-        property="og:description"
-        content="Limpeza e higienização de ar-condicionado residencial em Guarapari – ES. Conheça a Deschamps Refrigeração e solicite seu orçamento."
-    >
-
-    <meta
-        property="og:image"
-        content="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/01-TOPO-AR.png"
-    >
-
-    <meta
-        property="og:url"
-        content="URL_DO_SITE_AQUI"
-    >
-
+    <!-- ==========================================================================
+         [04] COMPARTILHAMENTO EM REDES SOCIAIS & WHATSAPP (OPEN GRAPH / OG TAGS)
+         * É esta parte que controla o que aparece quando você cola o link no
+           WhatsApp, Facebook, Telegram, LinkedIn, etc.
+    ========================================================================== -->
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
+    
+    <!-- Título que aparece no balão de compartilhamento -->
+    <meta property="og:title" content="Deschamps Refrigeração | Limpeza de Ar-Condicionado em Guarapari">
+    
+    <!-- Descrição/resumo do link compartilhado -->
+    <meta property="og:description" content="Limpeza e higienização de ar-condicionado residencial em Guarapari – ES. Conheça a Deschamps Refrigeração e solicite seu orçamento.">
+    
+    <!-- IMAGEM DE CAPA: Imagem exibida ao compartilhar nas redes sociais / WhatsApp -->
+    <meta property="og:image" content="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/LOGO%2002.png">
+    
+    <!-- Link de destino da pré-visualização -->
+    <meta property="og:url" content="https://deschampsrefrigeracao.pages.dev/">
 
-    <!-- Twitter Cards -->
+    <!-- ==========================================================================
+         [05] COMPARTILHAMENTO NO TWITTER / X (TWITTER CARDS)
+    ========================================================================== -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Deschamps Refrigeração | Limpeza de Ar-Condicionado em Guarapari">
+    <meta name="twitter:description" content="Limpeza e higienização de ar-condicionado residencial em Guarapari – ES.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/LOGO%2002.png">
 
-    <meta
-        name="twitter:title"
-        content="Deschamps Refrigeração | Limpeza de Ar-Condicionado em Guarapari"
-    >
-
-    <meta
-        name="twitter:description"
-        content="Limpeza e higienização de ar-condicionado residencial em Guarapari – ES."
-    >
-
-    <meta
-        name="twitter:image"
-        content="https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/01-TOPO-AR.png"
-    >
-
-    <!-- =========================================================
-         GOOGLE FONTS
-    ========================================================== -->
+    <!-- ==========================================================================
+         [06] FONTES EXTERNAS (GOOGLE FONTS)
+    ========================================================================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- =========================================================
-         STRUCTURED DATA — NEGÓCIO LOCAL
-    ========================================================== -->
+    <!-- ==========================================================================
+         [07] DADOS ESTRUTURADOS (SCHEMA.ORG) — NEGÓCIO LOCAL NO GOOGLE
+    ========================================================================== -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Deschamps Refrigeração",
+        "url": "https://deschampsrefrigeracao.pages.dev/",
+        "image": "https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/LOGO%2002.png",
         "description": "Serviço de limpeza e higienização de ar-condicionado residencial em Guarapari, Espírito Santo.",
         "areaServed": {
             "@type": "City",
@@ -146,9 +118,9 @@
     }
     </script>
 
-    <!-- =========================================================
-         STRUCTURED DATA — FAQ
-    ========================================================== -->
+    <!-- ==========================================================================
+         [08] DADOS ESTRUTURADOS (SCHEMA.ORG) — PERGUNTAS FREQUENTES (FAQ) NO GOOGLE
+    ========================================================================== -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -222,9 +194,9 @@
     }
     </script>
 
-    <!-- =========================================================
-         CSS
-    ========================================================== -->
+    <!-- ==========================================================================
+         [09] ESTILOS VISUAIS (CSS)
+    ========================================================================== -->
     <style>
         :root {
             --primary: #0b4f8a;
@@ -1136,9 +1108,6 @@
             font-size: 0.78rem;
         }
 
-        /* =====================================================
-           SOBRE A EMPRESA - LOGO INTEGRADA E PROPORCIONAL AO TEXTO
-        ====================================================== */
         .about-box {
             display: grid;
             grid-template-columns: 0.95fr 1.05fr;
@@ -1411,6 +1380,7 @@
             transform: translateY(0);
         }
 
+        /* Responsividade Tablets e Telas Médias */
         @media (max-width: 1100px) {
             .hero-grid { gap: 40px; }
             .benefits-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1463,6 +1433,7 @@
             .footer-brand { grid-column: 1 / -1; }
         }
 
+        /* Responsividade Smartphones */
         @media (max-width: 600px) {
             .container { width: min(calc(100% - 30px), var(--container)); }
             html { scroll-padding-top: 76px; }
@@ -1510,14 +1481,16 @@
 
 <body>
 
-    <!-- Acessibilidade -->
+    <!-- Acessibilidade / Leitor de Tela -->
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-    <!-- =========================================================
-         HEADER
-    ========================================================== -->
+    <!-- ==========================================================================
+         [10] CABEÇALHO / NAVBAR (HEADER)
+    ========================================================================== -->
     <header class="site-header" id="header">
         <div class="container header-inner">
+            
+            <!-- Logotipo do Cabeçalho -->
             <a class="brand" href="#inicio" aria-label="Deschamps Refrigeração - início">
                 <img
                     class="brand-logo"
@@ -1536,6 +1509,7 @@
                 </span>
             </a>
 
+            <!-- Botão Menu Mobile -->
             <button
                 class="menu-toggle"
                 id="menuToggle"
@@ -1551,16 +1525,14 @@
                 </svg>
             </button>
 
+            <!-- Links de Navegação Principal -->
             <nav class="desktop-nav" id="mainNav" aria-label="Navegação principal">
                 <a href="#inicio">Início</a>
                 <a href="#servico">Serviço</a>
                 <a href="#como-funciona">Como funciona</a>
                 <a href="#duvidas">Dúvidas</a>
                 <a href="#contato">Contato</a>
-                <a
-                    class="btn btn-primary js-whatsapp"
-                    href="#"
-                >
+                <a class="btn btn-primary js-whatsapp" href="#">
                     Solicitar orçamento
                 </a>
             </nav>
@@ -1569,11 +1541,13 @@
 
     <main id="conteudo">
 
-        <!-- =====================================================
-             HERO (TOPO)
-        ====================================================== -->
+        <!-- ======================================================================
+             [11] SEÇÃO HERO (DOBRA PRINCIPAL / TOPO DO SITE)
+        ====================================================================== -->
         <section class="hero" id="inicio" aria-labelledby="hero-title">
             <div class="container hero-grid">
+                
+                <!-- Coluna de Texto e Ações -->
                 <div class="hero-content reveal">
                     <span class="eyebrow">Refrigeração residencial</span>
                     <h1 id="hero-title">
@@ -1587,10 +1561,7 @@
                     </p>
 
                     <div class="hero-actions">
-                        <a
-                            class="btn btn-whatsapp js-whatsapp"
-                            href="#"
-                        >
+                        <a class="btn btn-whatsapp js-whatsapp" href="#">
                             <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M20.52 3.48A11.78 11.78 0 0 0 12.13 0C5.62 0 .32 5.3.32 11.81c0 2.08.54 4.1 1.57 5.88L.22 24l6.46-1.64a11.8 11.8 0 0 0 5.45 1.38h.01c6.51 0 11.81-5.3 11.81-11.81 0-3.16-1.23-6.13-3.43-8.45ZM12.14 21.7h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.83.97 1.02-3.73-.23-.38a9.86 9.86 0 1 1 8.44 4.73Zm5.42-7.39c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"></path>
                             </svg>
@@ -1611,6 +1582,7 @@
                     </div>
                 </div>
 
+                <!-- Coluna Visual / Foto Hero -->
                 <div class="hero-visual reveal">
                     <div class="hero-image-wrap">
                         <img
@@ -1628,6 +1600,7 @@
                         </div>
                     </div>
 
+                    <!-- Card Flutuante -->
                     <div class="hero-floating-card">
                         <div class="floating-icon">
                             <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -1643,12 +1616,13 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
-        <!-- =====================================================
-             FAIXA DE CONFIANÇA
-        ====================================================== -->
+        <!-- ======================================================================
+             [12] FAIXA DE CONFIANÇA / DIFERENCIAIS
+        ====================================================================== -->
         <section class="trust-strip" aria-label="Informações sobre o atendimento">
             <div class="container trust-grid">
                 <div class="trust-item">
@@ -1707,9 +1681,9 @@
             </div>
         </section>
 
-        <!-- =====================================================
-             BENEFÍCIOS
-        ====================================================== -->
+        <!-- ======================================================================
+             [13] SEÇÃO DE BENEFÍCIOS
+        ====================================================================== -->
         <section class="section" id="beneficios" aria-labelledby="beneficios-title">
             <div class="container">
                 <div class="section-header center reveal">
@@ -1772,9 +1746,9 @@
             </div>
         </section>
 
-        <!-- =====================================================
-             CONSCIENTIZAÇÃO (FILTRO SUJO)
-        ====================================================== -->
+        <!-- ======================================================================
+             [14] SEÇÃO CONSCIENTIZAÇÃO (FILTRO SUJO / ALERTA)
+        ====================================================================== -->
         <section class="section section-gray" id="conscientizacao" aria-labelledby="conscientizacao-title">
             <div class="container awareness-grid">
                 <div class="image-card reveal">
@@ -1827,22 +1801,21 @@
                         </div>
                     </div>
 
-                    <a
-                        class="btn btn-primary js-whatsapp"
-                        href="#"
-                    >
+                    <a class="btn btn-primary js-whatsapp" href="#">
                         Fale conosco
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- =====================================================
-             SERVIÇO (LIMPANDO AR)
-        ====================================================== -->
+        <!-- ======================================================================
+             [15] SEÇÃO DE SERVIÇO PRINCIPAL & ETAPAS DO PROCEDIMENTO
+        ====================================================================== -->
         <section class="section" id="servico" aria-labelledby="servico-title">
             <div class="container">
                 <div class="service-grid">
+                    
+                    <!-- Resumo e Imagem do Serviço -->
                     <div class="service-intro reveal">
                         <span class="eyebrow">Serviço principal</span>
                         <h2 id="servico-title">Limpeza e higienização de ar-condicionado residencial</h2>
@@ -1865,6 +1838,7 @@
                         </div>
                     </div>
 
+                    <!-- Lista de Etapas (01 a 05) -->
                     <div class="reveal">
                         <div class="service-steps">
                             <article class="service-step">
@@ -1914,6 +1888,7 @@
                     </div>
                 </div>
 
+                <!-- Objetivos do Serviço -->
                 <div class="section-header center reveal" style="margin-top: 80px; margin-bottom: 30px;">
                     <span class="eyebrow">Objetivo do serviço</span>
                     <h2>O que a limpeza busca proporcionar</h2>
@@ -1938,16 +1913,16 @@
             </div>
         </section>
 
-        <!-- =====================================================
-             COMO FUNCIONA
-        ====================================================== -->
+        <!-- ======================================================================
+             [16] SEÇÃO COMO FUNCIONA (TIMELINE / PASSO A PASSO)
+        ====================================================================== -->
         <section class="section section-gray" id="como-funciona" aria-labelledby="como-title">
             <div class="container">
                 <div class="section-header center reveal">
                     <span class="eyebrow">Atendimento simples</span>
                     <h2 id="como-title">Como funciona</h2>
                     <p class="section-description">
-                        Da primeira mensagem ao atendimento, o objective é deixar o processo claro e fácil de entender.
+                        Da primeira mensagem ao atendimento, o objetivo é deixar o processo claro e fácil de entender.
                     </p>
                 </div>
 
@@ -1963,7 +1938,7 @@
                     <div class="timeline-item reveal">
                         <div class="timeline-number">2</div>
                         <div>
-                            <h3>Informamos os dados necessários</h3>
+                            <h3>Informamos os dados</h3>
                             <p>Você apresenta as informações básicas sobre o aparelho e o local.</p>
                         </div>
                     </div>
@@ -1979,7 +1954,7 @@
                     <div class="timeline-item reveal">
                         <div class="timeline-number">4</div>
                         <div>
-                            <h3>Combinamos o atendimento</h3>
+                            <h3>Combinamos a data</h3>
                             <p>Data e horário são definidos conforme disponibilidade.</p>
                         </div>
                     </div>
@@ -1994,19 +1969,16 @@
                 </div>
 
                 <div class="timeline-cta reveal">
-                    <a
-                        class="btn btn-primary js-whatsapp"
-                        href="#"
-                    >
+                    <a class="btn btn-primary js-whatsapp" href="#">
                         Solicitar orçamento
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- =====================================================
-             ANTES E DEPOIS
-        ====================================================== -->
+        <!-- ======================================================================
+             [17] SEÇÃO ANTES E DEPOIS (PROVA VISUAL)
+        ====================================================================== -->
         <section class="section" id="antes-depois" aria-labelledby="antes-depois-title">
             <div class="container">
                 <div class="section-header center reveal">
@@ -2049,9 +2021,9 @@
             </div>
         </section>
 
-        <!-- =====================================================
-             PARA QUEM É
-        ====================================================== -->
+        <!-- ======================================================================
+             [18] SEÇÃO PARA QUEM É O SERVIÇO (PÚBLICO-ALVO)
+        ====================================================================== -->
         <section class="section section-gray" id="para-quem" aria-labelledby="para-quem-title">
             <div class="container">
                 <div class="section-header reveal">
@@ -2117,9 +2089,9 @@
             </div>
         </section>
 
-        <!-- =====================================================
-             ATENDIMENTO LOCAL
-        ====================================================== -->
+        <!-- ======================================================================
+             [19] SEÇÃO DE ATENDIMENTO LOCAL & BAIRROS ATENDIDOS
+        ====================================================================== -->
         <section class="section local-section" id="atendimento" aria-labelledby="atendimento-title">
             <div class="container local-grid">
                 <div class="reveal">
@@ -2132,6 +2104,7 @@
                         A disponibilidade pode variar conforme a região e as características do atendimento. Consulte antes de agendar.
                     </p>
 
+                    <!-- Tags dos Bairros -->
                     <div class="local-areas">
                         <span class="area-tag">Praia do Morro</span>
                         <span class="area-tag">Muquiçaba</span>
@@ -2146,10 +2119,7 @@
                         <span class="area-tag">Perocão</span>
                     </div>
 
-                    <a
-                        class="btn btn-whatsapp js-whatsapp"
-                        href="#"
-                    >
+                    <a class="btn btn-whatsapp js-whatsapp" href="#">
                         Fale conosco
                     </a>
                 </div>
@@ -2171,9 +2141,9 @@
             </div>
         </section>
 
-        <!-- =====================================================
-             SOBRE A DESCHAMPS (LOGO 02.png PROPORCIONAL AO TEXTO)
-        ====================================================== -->
+        <!-- ======================================================================
+             [20] SEÇÃO SOBRE A EMPRESA
+        ====================================================================== -->
         <section class="section" id="sobre" aria-labelledby="sobre-title">
             <div class="container">
                 <div class="about-box reveal">
@@ -2220,13 +2190,14 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <!-- =====================================================
-             FAQ
-        ====================================================== -->
+        <!-- ======================================================================
+             [21] SEÇÃO PERGUNTAS FREQUENTES (FAQ ACCORDION)
+        ====================================================================== -->
         <section class="section section-gray" id="duvidas" aria-labelledby="faq-title">
             <div class="container">
                 <div class="section-header center reveal">
@@ -2337,9 +2308,9 @@
             </div>
         </section>
 
-        <!-- =====================================================
-             CTA FINAL
-        ====================================================== -->
+        <!-- ======================================================================
+             [22] SEÇÃO CTA FINAL (CHAMADA DE FECHAMENTO)
+        ====================================================================== -->
         <section class="final-cta" id="contato" aria-labelledby="cta-title">
             <div class="container">
                 <div class="cta-box">
@@ -2350,10 +2321,7 @@
                     </div>
 
                     <div class="cta-actions reveal">
-                        <a
-                            class="btn btn-whatsapp js-whatsapp"
-                            href="#"
-                        >
+                        <a class="btn btn-whatsapp js-whatsapp" href="#">
                             <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M20.52 3.48A11.78 11.78 0 0 0 12.13 0C5.62 0 .32 5.3.32 11.81c0 2.08.54 4.1 1.57 5.88L.22 24l6.46-1.64a11.8 11.8 0 0 0 5.45 1.38h.01c6.51 0 11.81-5.3 11.81-11.81 0-3.16-1.23-6.13-3.43-8.45ZM12.14 21.7h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.83.97 1.02-3.73-.23-.38a9.86 9.86 0 1 1 8.44 4.73Zm5.42-7.39c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"></path>
                             </svg>
@@ -2366,9 +2334,9 @@
 
     </main>
 
-    <!-- =========================================================
-         FOOTER
-    ========================================================== -->
+    <!-- ==========================================================================
+         [23] RODAPÉ (FOOTER)
+    ========================================================================== -->
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
@@ -2390,12 +2358,7 @@
                 <div class="footer-column">
                     <h3>Contato</h3>
                     <div class="footer-links">
-                        <a
-                            class="js-whatsapp"
-                            href="#"
-                        >
-                            WhatsApp
-                        </a>
+                        <a class="js-whatsapp" href="#">WhatsApp</a>
                         <a href="https://www.instagram.com/deschampsrefrigeracao" target="_blank" rel="noopener noreferrer">Instagram</a>
                     </div>
                 </div>
@@ -2408,39 +2371,41 @@
         </div>
     </footer>
 
-    <!-- WhatsApp Flutuante -->
-    <a
-        class="whatsapp-float js-whatsapp"
-        href="#"
-        aria-label="Solicitar orçamento pelo WhatsApp"
-    >
+    <!-- ==========================================================================
+         [24] BOTÕES FLUTUANTES (WHATSAPP E CTA MOBILE)
+    ========================================================================== -->
+    <!-- Botão Flutuante Circular do WhatsApp -->
+    <a class="whatsapp-float js-whatsapp" href="#" aria-label="Solicitar orçamento pelo WhatsApp">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M20.52 3.48A11.78 11.78 0 0 0 12.13 0C5.62 0 .32 5.3.32 11.81c0 2.08.54 4.1 1.57 5.88L.22 24l6.46-1.64a11.8 11.8 0 0 0 5.45 1.38h.01c6.51 0 11.81-5.3 11.81-11.81 0-3.16-1.23-6.13-3.43-8.45ZM12.14 21.7h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.83.97 1.02-3.73-.23-.38a9.86 9.86 0 1 1 8.44 4.73Zm5.42-7.39c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"></path>
         </svg>
     </a>
 
-    <!-- CTA Fixo Mobile -->
-    <a
-        class="mobile-bottom-cta js-whatsapp"
-        href="#"
-    >
+    <!-- Barra Fixa Inferior Mobile -->
+    <a class="mobile-bottom-cta js-whatsapp" href="#">
         Solicitar orçamento
     </a>
 
-    <!-- =========================================================
-         JAVASCRIPT
-    ========================================================== -->
+    <!-- ==========================================================================
+         [25] SCRIPTS JAVASCRIPT (INTERATIVIDADE E CONFIGURAÇÕES)
+    ========================================================================== -->
     <script>
+        /* -------------------------------------------------------------
+           CONFIGURAÇÕES GERAIS DO SITE
+        -------------------------------------------------------------- */
         const CONFIG = {
-            whatsapp: "5521982606592",
+            whatsapp: "5521982606592", // DDI + DDD + Número
             defaultMessage: "Olá! Vim pelo site da Deschamps Refrigeração e gostaria de solicitar um orçamento para limpeza/higienização do meu ar-condicionado.",
-            siteUrl: "URL_DO_SITE_AQUI",
+            siteUrl: "https://deschampsrefrigeracao.pages.dev/",
             logoUrl: "https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/LOGO%2002.png",
             faviconUrl: "https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/00-DR-ICONE.jpeg",
-            shareImageUrl: "https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/01-TOPO-AR.png",
+            shareImageUrl: "https://raw.githubusercontent.com/alandeschampsofc/deschampsrefrigeracao/main/LOGO%2002.png",
             instagramUrl: "https://www.instagram.com/deschampsrefrigeracao"
         };
 
+        /* -------------------------------------------------------------
+           LÓGICA DOS BOTÕES DE WHATSAPP
+        -------------------------------------------------------------- */
         function createWhatsAppUrl(message) {
             const number = String(CONFIG.whatsapp || "").replace(/\D/g, "");
             const text = encodeURIComponent(message || CONFIG.defaultMessage);
@@ -2470,6 +2435,9 @@
             });
         }
 
+        /* -------------------------------------------------------------
+           MENU MOBILE (ABRIR / FECHAR)
+        -------------------------------------------------------------- */
         const menuToggle = document.getElementById("menuToggle");
         const mainNav = document.getElementById("mainNav");
 
@@ -2489,6 +2457,9 @@
             });
         }
 
+        /* -------------------------------------------------------------
+           SOMBRA NO HEADER AO ROLAR A PÁGINA
+        -------------------------------------------------------------- */
         const header = document.getElementById("header");
         function updateHeader() {
             if (!header) return;
@@ -2501,6 +2472,9 @@
         window.addEventListener("scroll", updateHeader, { passive: true });
         updateHeader();
 
+        /* -------------------------------------------------------------
+           ACCORDION / DÚVIDAS FREQUENTES (FAQ)
+        -------------------------------------------------------------- */
         const faqItems = document.querySelectorAll(".faq-item");
         faqItems.forEach(item => {
             const question = item.querySelector(".faq-question");
@@ -2524,6 +2498,9 @@
             });
         });
 
+        /* -------------------------------------------------------------
+           ANIMAÇÃO DE ENTRADA AO ROLAR A PÁGINA (SCROLL REVEAL)
+        -------------------------------------------------------------- */
         const revealElements = document.querySelectorAll(".reveal");
         if ("IntersectionObserver" in window) {
             const revealObserver = new IntersectionObserver(
@@ -2547,6 +2524,9 @@
             });
         }
 
+        /* -------------------------------------------------------------
+           INICIALIZAÇÃO APÓS O CARREGAMENTO DO DOM
+        -------------------------------------------------------------- */
         document.addEventListener("DOMContentLoaded", function() {
             setupWhatsAppButtons();
         });
